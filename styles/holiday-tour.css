@@ -104,6 +104,7 @@ input{
     font-size: 16px;
 }
 
+/* Popular Tours styles */
 .popular-tours{
     display: flex;
     justify-content: space-between;
@@ -135,4 +136,18 @@ input{
     color: #FFFFFF;
     font-size: 20px;
     border-radius: 8px;
+}
+
+/* Choose Your Destination styles */
+
+.destination{
+    text-align: center;
+}
+
+.destination-title{
+    font-size: 40px;
+}
+
+div > img{
+    margin: 1.25rem;
 }
