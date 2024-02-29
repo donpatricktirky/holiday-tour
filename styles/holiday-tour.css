@@ -85,24 +85,49 @@ nav a {
     text-align: center;
 }
 
+
+/* .banner-input > input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;  
+    
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
+    border: none;
+    margin-bottom: 100px;
+    font-size: 16px;
+} */
+
 .banner-input{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 90vh; */
-    /* border: 1px solid black; */
-    padding-bottom: 5px;
+    padding-bottom: 5px; 
+    gap: 24px;  
 }
 
 input{
     border-radius: 8px;
     width: 174px;
     height: 52px;
-    background: #FFFFFF;
+    
     border: none;
     margin-bottom: 100px;
     font-size: 16px;
 }
+
+.banner-input > .input5 , .input6 , .input7 {
+    color: #13131880;
+    background: #FFFFFF;
+}
+.banner-input > .find-now-btn{
+    background: #FF5400;
+    color: #FFFFFF;
+}
+
+
 
 /* Popular Tours styles */
 .popular-tours{
@@ -239,4 +264,57 @@ div > img{
 .simple-perfect-place li{
     margin: 16px 0px;
     font-weight: 700;
+}
+
+/* Newsletter styles */
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px;
+    gap: 50px;
+}
+
+.subscribe-field{
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 16px;
+    
+}
+.subscribe-field > p, h3 {
+    margin: 20px 50px;
+}
+.newsletter-title{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A5A5D;
+}
+
+.subscribe-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.subscribe-input > input{
+width: 393px;
+height: 52px;
+left: 175px;
+border-radius: 8px;
+
+
+margin: 10px 40px;
+}
+.subscribe-input > .input1 , .input2 {
+    background: rgba(19, 19, 24, 0.05);
+}
+.subscribe-btn{
+    background:  #FF5400;
+    color: #FFFFFF;
 }
