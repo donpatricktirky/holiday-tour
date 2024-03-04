@@ -272,7 +272,7 @@ div > img{
     justify-content: space-between;
     align-items: center;
     margin: 50px 100px;
-    gap: 50px;
+    gap: 5px;
 }
 
 .subscribe-field{
@@ -307,8 +307,6 @@ width: 393px;
 height: 52px;
 left: 175px;
 border-radius: 8px;
-
-
 margin: 10px 40px;
 }
 .subscribe-input > .input1 , .input2 {
@@ -317,4 +315,69 @@ margin: 10px 40px;
 .subscribe-btn{
     background:  #FF5400;
     color: #FFFFFF;
+}
+.save-up-to-badge{
+background: rgb(255, 84, 0);
+position: absolute;
+width: 300px;
+height: 100px;
+left: 980px;
+right: 156px;
+bottom: -3569px;
+transform: rotate(-19.63deg);
+border-radius: 16px;
+text-align: center;
+}
+
+.save-up-to-badge p, h2{
+    color: #FFFFFF;
+}
+.save-up-to-badge p{
+    font-size: 32px;
+    font-weight: 800;
+    
+}
+
+/* footer section style  */
+
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    row-gap: 500px;
+}
+
+.footer h3{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-icon img{
+    margin-left: 500px;
+}
+
+.footer p{
+    top: 90%;
+}
+
+.social-icon{
+    padding-top: 30px;
+
+}
+
+.icon-line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.copyright{
+    padding-top: 20px;
+    padding-bottom: 110px;
 }
