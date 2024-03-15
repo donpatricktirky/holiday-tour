@@ -53,23 +53,6 @@ nav a {
 }
 
 /* Explore Your Travel styles */
-/* .bannerxx{
-    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
-    background-size: contain;
-    /* background-size: 1170px 500px; */
-    background-repeat: no-repeat;
-    background-position: top center;
-
-    border-radius: 16px;
-
-    /*  */
-    /* margin-left: 100px; */
-    
-    /* border: 2px solid salmon; */
-    
-} */
-
-
 
 .banner > .banner-title , .banner-paragraph , .banner-input{
     position: absolute;
@@ -423,13 +406,14 @@ width: 300px;
 height: 100px;
 left: 980px;
 right: 156px;
-bottom: -5200px;
+bottom: -5190px;
 transform: rotate(-19.63deg);
 border-radius: 16px;
 text-align: center;
 }
 
 .save-up-to-badge p, h2{
+    position: absolute;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -438,10 +422,13 @@ text-align: center;
 }
 
 .save-up-to-badge h2{
-/* border: 1px solid black; */
+    top: -5%;
+    left: 30%;
 }
 
 .save-up-to-badge p{
+    top: 10%;
+    left: 10%;
     font-size: 32px;
     font-weight: 800;
     /* border: 1px solid #FFFFFF;
