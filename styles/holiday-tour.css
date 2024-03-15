@@ -15,11 +15,7 @@ nav{
     margin: 5px 50px;
 }
 
-/* nav{
-    
-    
-    text-align: center;
-} */
+
 
 nav > ul{
     display: flex;
@@ -57,27 +53,45 @@ nav a {
 }
 
 /* Explore Your Travel styles */
-.banner{
+/* .bannerxx{
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-size: contain;
     /* background-size: 1170px 500px; */
     background-repeat: no-repeat;
     background-position: top center;
+
+    border-radius: 16px;
+
+    /*  */
     /* margin-left: 100px; */
     
     /* border: 2px solid salmon; */
     
+} */
+
+
+
+.banner > .banner-title , .banner-paragraph , .banner-input{
+    position: absolute;
+}
+.banner img{
+    margin-left: 100px;
 }
 
 .banner-title{
+    
+    top: 30%;
+    left: 25%;
     font-size: 64px;
     color: #FFFFFF;
     
     /* border: 1px solid blueviolet; */
-    padding-top: 70px;
-    text-align: center;
+    /* padding-top: 70px; */
+    /* text-align: center; */
 }
 .banner-paragraph{
+    top: 45%;
+    left: 25%;
     font-size: 16px;
     color: #FFFFFF;
     /* border: 1px solid brown; */
@@ -101,12 +115,46 @@ nav a {
 } */
 
 .banner-input{
+    top: 60%;
+    left: 5%;
+    
+    width: 800px;
+    height: 100px;
+    
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 5px; 
-    gap: 24px;  
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin-left: 250px;
+
+    padding-top: 45px;
+    padding-left: 25px;
+    gap: 24px; 
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
 }
+
+/* .banner-input{
+
+position: relative;
+width: 800px;
+height: 0px;
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 100px;
+gap: 24px;
+border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.3);
+
+margin-left: 190px;
+margin-bottom: 10px;
+
+} */
 
 input{
     border-radius: 8px;
@@ -116,6 +164,8 @@ input{
     border: none;
     margin-bottom: 100px;
     font-size: 16px;
+    
+    
 }
 
 .banner-input > .input5 , .input6 , .input7 {
@@ -176,6 +226,48 @@ input{
 div > img{
     margin: 1.25rem;
 }
+
+.image-with-text{
+    position: relative;
+}
+
+.image-with-text h2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.maldives{
+    top: 15%;
+    left: 25%;
+}
+
+.indonesia{
+    top: 15%;
+    left: 75%;
+}
+.srilanka{
+    top: 50%;
+    left: 20%;
+}
+.north-america{
+    top: 50%;
+    left: 55%;
+}
+.kashmir{
+    top: 50%;
+    left: 85%;
+}
+.bangladesh{
+    top: 80%;
+    left: 25%;
+}
+.bandarban{
+    top: 80%;
+    left: 70%;
+}
+
 
 /* Why Choose Us styles */
 
@@ -241,6 +333,14 @@ div > img{
 .box3 > p{
     line-height: 26px;
 }
+
+
+/* Deals & Discounts styles */
+
+.deals-discounts{
+   text-align: center;
+}
+
 
 /* simple perfect place styles */
 .simple-perfect-place{
@@ -323,7 +423,7 @@ width: 300px;
 height: 100px;
 left: 980px;
 right: 156px;
-bottom: -3569px;
+bottom: -5200px;
 transform: rotate(-19.63deg);
 border-radius: 16px;
 text-align: center;
@@ -331,11 +431,21 @@ text-align: center;
 
 .save-up-to-badge p, h2{
     color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 1000px;  */
 }
+
+.save-up-to-badge h2{
+/* border: 1px solid black; */
+}
+
 .save-up-to-badge p{
     font-size: 32px;
     font-weight: 800;
-    
+    /* border: 1px solid #FFFFFF;
+    bottom: 100px; */
 }
 
 /* footer section style  */
