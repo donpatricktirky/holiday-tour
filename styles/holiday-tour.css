@@ -37,10 +37,16 @@ nav a {
     justify-content: space-between;
     /* border: 1px solid blue; */
 }
-.header-icon, .header-title{
+/* .header-icon, .header-title{
     display: flex;
     justify-content: space-between;
+} */
+.header-img{
+    position: absolute;
+    left: 1%;
 }
+
+.header-img , 
 .header-title{
     font-size: 36px;
     /* border:1px solid #424247; */
@@ -447,16 +453,21 @@ text-align: center;
     flex-direction: row;
     align-items: center;
     row-gap: 500px;
+    margin-left: 540px;
 }
+
+.footer-img{
+    position: absolute;
+    left: 37%;
+}
+
 
 .footer h3{
     font-size: 32px;
     font-weight: 800;
 }
 
-.footer-icon img{
-    margin-left: 500px;
-}
+
 
 .footer p{
     top: 90%;
