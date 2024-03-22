@@ -330,6 +330,108 @@ div > img{
    text-align: center;
 }
 
+.deals-discounts > img{
+    margin: 24px;
+}
+
+.image-info1{
+    position: absolute;
+    width: 579px;
+    height: 389px;
+    left: 630px;
+    top: 3440px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    
+}
+
+.img-info-heading{
+    display: flex;
+    justify-content: space-between;
+    
+    position: relative;
+    left: 7%;
+
+}
+.img-info-heading > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 80px;
+}
+
+.image-info1  h1 , p{
+    text-align: left;
+    padding-left: 50px;
+}
+
+.price{
+    
+    color: rgb(255, 84, 0);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.image-info1 > button {
+    position: absolute;
+    left: 8%;
+}
+
+.image-info2{
+    position: absolute;
+    width: 579px;
+    height: 389px;
+    left: 150px;
+    top: 4000px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    
+}
+
+.image-info2  h1 , p{
+    text-align: left;
+    padding-left: 50px;
+}
+
+.image-info2 > button {
+    position: absolute;
+    left: 8%;
+}
+.image-info3{
+    position: absolute;
+    width: 579px;
+    height: 389px;
+    left: 630px;
+    top: 4540px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    
+}
+
+.image-info3  h1 , p{
+    text-align: left;
+    padding-left: 50px;
+}
+
+.image-info3 > button {
+    position: absolute;
+    left: 8%;
+}
 
 /* simple perfect place styles */
 .simple-perfect-place{
@@ -346,7 +448,7 @@ div > img{
     font-size: 40px;
     line-height: 60px;
 }
-.simple-perfect-place p {
+.simple-perfect-place p{
     margin: 24px 0px;
 } 
 
