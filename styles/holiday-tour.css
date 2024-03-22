@@ -166,7 +166,48 @@ input{
     color: #FFFFFF;
 }
 
+/* Go beyond your imagination styles */
+.imagination{
+    display: flex;
+    margin: 0px 100px;
+    padding-top: 100px;
+}
+.imagination-text{
+    margin-top: 60px;
+    font-weight: 400;
+}
+.imagination-text > h1{
+    font-size: 36px;
+}
+.imagination-text > p{
+    font-size: 18px;
+}
+.section-title{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FF5400;
+}
+.imagination > img{
+    width: 261px;
+    padding: 0px 12px;
+}
+.imagination-img-text1, .imagination-img-text2, .imagination-img-text3{
+    position: absolute;
+    top: 145%;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+} 
+.imagination-img-text1{
+    right: 53%;
+    /* top: 145%; */
+}
+.imagination-img-text2{
+    right: 34%;
 
+}
+.imagination-img-text3{
+    right: 13%;
+}
 
 /* Popular Tours styles */
 .popular-tours{
@@ -365,7 +406,11 @@ div > img{
     margin-right: 80px;
 }
 
-.image-info1  h1 , p{
+.image-info1 h1{
+    text-align: left;
+    padding-left: 50px;
+}
+.image-info1 p{
     text-align: left;
     padding-left: 50px;
 }
@@ -400,7 +445,11 @@ div > img{
     
 }
 
-.image-info2  h1 , p{
+.image-info2 h1{
+    text-align: left;
+    padding-left: 50px;
+}
+.image-info2 p{
     text-align: left;
     padding-left: 50px;
 }
@@ -423,10 +472,15 @@ div > img{
     
 }
 
-.image-info3  h1 , p{
+.image-info3 h1{
     text-align: left;
     padding-left: 50px;
 }
+.image-info3 p{
+    text-align: left;
+    padding-left: 50px;
+}
+
 
 .image-info3 > button {
     position: absolute;
