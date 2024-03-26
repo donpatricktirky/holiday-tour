@@ -594,3 +594,20 @@ div > img{
     
     
 }
+
+
+
+
+/* responsive styles */
+
+/* mobile device or small device */
+
+@media screen and (max-width:600px) {
+    
+}
+
+/* pc or large device  */
+
+@media screen and (min-width:992px) {
+    
+}
