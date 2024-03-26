@@ -7,6 +7,9 @@
 .text-orange{
     color: #FF5400;
 }
+
+/* Nav styles */
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -51,6 +54,7 @@ nav a {
 }
 
 /* Explore Your Travel styles */
+
 
 .banner > .banner-title , .banner-paragraph , .banner-input{
     position: absolute;
@@ -332,7 +336,7 @@ div > img{
     width: 579px;
     height: 389px;
     left: 630px;
-    top: 3440px;
+    top: 3900px;
     box-sizing: border-box;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 16px;
@@ -387,7 +391,7 @@ div > img{
     width: 579px;
     height: 389px;
     left: 150px;
-    top: 4000px;
+    top: 4450px;
     box-sizing: border-box;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 16px;
@@ -414,7 +418,7 @@ div > img{
     width: 579px;
     height: 389px;
     left: 630px;
-    top: 4540px;
+    top: 5000px;
     box-sizing: border-box;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 16px;
@@ -518,8 +522,8 @@ div > img{
     width: 300px;
     height: 100px;
     left: 980px;
-    right: 156px;
-    bottom: -5190px;
+    /* right: 156px; */
+    top: 6342px;
     transform: rotate(-19.63deg);
     border-radius: 16px;
     text-align: center;
@@ -534,8 +538,8 @@ div > img{
 }
 
 .save-up-to-badge h2{
-    top: -5%;
-    left: 30%;
+    top: -6%;
+    left: 27%;
 }
 
 .save-up-to-badge p{
@@ -583,11 +587,10 @@ div > img{
 }
 
 .copyright{
-    align-items: center;
-    text-align: center;
+
     padding-top: 20px;
-    /* padding-bottom: 110px; */
-    border: 1px solid rgba(19, 19, 24, 0.1);
-    width: 50%;
+    padding-bottom: 110px;
+    border-top: 1px solid rgba(19, 19, 24, 0.1);
+    
     
 }
