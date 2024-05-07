@@ -59,29 +59,32 @@ nav a {
 .banner > .banner-title , .banner-paragraph , .banner-input{
     position: absolute;
 }
-.banner img{
+.banner-img{
     margin-left: 100px;
 }
 
 .banner-title{
     
-    top: 30%;
+    top: 120px;
     left: 25%;
     font-size: 64px;
     color: #FFFFFF;
+    
+    
 }
 .banner-paragraph{
-    top: 45%;
+    top: 300px;
     left: 25%;
     font-size: 16px;
     color: #FFFFFF;
-    padding-bottom: 100px;
     text-align: center;
+    width: 676px;
+    
 }
 
 .banner-input{
-    top: 60%;
-    left: 5%;
+    top: 400px;
+    left: 15%;
     
     width: 800px;
     height: 100px;
@@ -91,7 +94,7 @@ nav a {
     justify-content: flex-start;
     align-items: flex-start;
 
-    margin-left: 250px;
+    margin-left: 70px;
 
     padding-top: 45px;
     padding-left: 25px;
@@ -148,10 +151,11 @@ input{
 }
 .imagination-img-text1, .imagination-img-text2, .imagination-img-text3{
     position: absolute;
-    top: 145%;
+    top: 950px;
     color: #FFFFFF;
     font-size: 24px;
     text-align: center;
+    
 } 
 .imagination-img-text1{
     right: 53%;
@@ -602,12 +606,438 @@ div > img{
 
 /* mobile device or small device */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px) 
+{   
+
+    /* Nav */
+    nav{
+        /* border: 1px solid red; */
+        margin: 0px 20px;
+        
+        
+    }
+    nav ul{
+        display: none;
+    }
     
+    .header-title{
+        width: 120px;
+        height: 27px;
+    }
+    .header-img{
+        padding-left: 10px;
+
+        display: flex;
+        justify-content: center;
+        
+        width: 35px;
+        height: 33.52px;
+    }
+    .header-title{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 21.5px;
+    }
+
+    
+    /* Explore your */
+    .banner{
+        /* border: 1px solid green; */
+        /* width: 335px;
+        height: 483px; */
+        margin: 0px 25px;
+        color: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%);
+        align-items: center;
+        text-align: center;
+
+        /* display: none; */
+    }
+    .banner > .banner-title , .banner-paragraph-small-device , .banner-input{
+        position: absolute;
+    }
+    .banner-title{
+        
+        font-size: 22px;
+        
+        top: 12%;
+        left: 12%;
+        
+    }
+    .banner-paragraph{
+        /* display: none; */
+        font-size: 14px;
+        width: 304px;
+        top: 16%;
+        left: 13%;
+        text-align: center;
+    }
+    
+    .banner-img{
+        /* display: none; */
+        margin: 0px 5px;
+        width: 335px;
+        height: 483px;
+        border-radius: 16px;
+        background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%);
+
+    }
+    .banner-input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        /* border: 1px solid black; */
+
+        top: 24%;
+        left: 16%;
+        
+        margin-left: 5px;
+        padding: 16px 16px;
+        /* width: 287px; */
+        width: 250px;
+        height: 288px;
+        
+    }
+    input{
+        border-radius: 8px;
+        /* width: 174px;
+        height: 52px; */
+        width: 255px;
+        height: 52px;
+        
+        border: none;
+        margin-bottom: 5px;
+        font-size: 16px;
+        
+        
+    }
+    /* Go beyond your */
+    .imagination{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        /* border: 1px solid blue; */
+        margin: 0px 25px;
+        padding: 0px;
+        width: 335px;
+        /* height: 500px; */
+        
+
+        
+        
+    }
+    .imagination-text{
+        /* border: 1px solid black; */
+        margin: 0px;
+        text-align: center;
+        
+    }
+    
+    .imagination img{
+        width: 330px;
+        height: 483px;
+        padding: 12px 0px;
+    }
+    
+    .imagination-img-text1{
+        top: 122%;
+        left: 10%;
+        width: 300px;
+    }
+    .imagination-img-text2{
+        top: 177%;
+    }
+    .imagination-img-text3{
+        top: 230%;
+        left: 5%;
+    }
+    
+    /* Popular tours */
+    .popular-tours{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        /* display: none; */
+        margin: 0px 25px;
+    }
+    .popular-tours-title{
+        margin: 0px 0px;
+        font-size: 20px;
+    }
+    .popular-tours img{
+        width: 335px;
+        height: 342px;
+        margin: 0px 0px;
+        
+        
+    }
+    /* Choose your */
+    .destination{
+        /* border: 1px solid green; */
+        
+    }
+    .collage-img{
+        width: 335px;
+        height: 176px;
+        
+        
+        /* display: none; */
+    }
+    .maldives{
+        top: 5%;
+        left: 50%;
+    }
+    .indonesia{
+        top: 20%;
+        left: 50%;
+    }
+    .srilanka{
+        top: 35%;
+        left: 50%;
+    }
+    .north-america{
+        top: 49%;
+        left: 50%;
+    }
+    .kashmir{
+        top: 63%;
+        left:50%;
+    }
+    .bangladesh{
+        top: 77%;
+        left: 50%;
+    }
+    .bandarban{
+        top: 92%;
+        left: 50%;
+    }
+    /* Why Choose us */
+    .choose-us{
+        /* border: 1px solid blue; */
+        
+        
+    }
+    .destination-title{
+        font-size: 20px;
+    }
+    .destination-text{
+        font-size: 14px;
+    }
+    .box-container{
+        
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .box1, .box2, .box3{
+        width: 335px;
+        height: 289px;
+    }
+    .row h3{
+        margin: 0px 0px;
+    }
+    /* Deals & Discounts */
+    .deals-discounts{
+        /* border: 1px solid red; */
+        
+    }
+    .deals-discounts img{
+        width: 335px;
+        height: 500px;
+    }
+    .p-large{
+        display: none;
+    }
+    .image-info1{
+        position: absolute;
+        width: 300px;
+        height: 297px;
+        left: 65px;
+        top: 6470px;
+        
+        
+    }
+    .image-info1 h1{
+        font-size: 20px;
+    }
+    .image-info1 p{
+        font-size: 14px;
+    }
+    .image-info2{
+        position: absolute;
+        width: 300px;
+        height: 297px;
+        left: 65px;
+        top: 7025px;
+        
+        
+    }
+    .image-info2 h1{
+        font-size: 20px;
+    }
+    .image-info2 p{
+        font-size: 14px;
+    }
+    .image-info3{
+        position: absolute;
+        width: 300px;
+        height: 297px;
+        left: 65px;
+        top: 7570px;
+        
+        
+    }
+    .image-info3 h1{
+        font-size: 20px;
+    }
+    .image-info3 p{
+        font-size: 14px;
+    }
+    .img-info-heading{
+        display: flex;
+        /* flex-direction: column; */
+        
+        /* justify-content: space-between; */
+        align-items: center;
+        /* width: 218px;
+        height: 64px; */
+        
+        font-size: 16px;
+        left: 0%;
+
+        /* display: none; */
+        
+        
+    }
+    .img-info-heading>div{
+        margin-left: 0px;
+        margin-right:0px ;
+        
+        gap: 8px;
+    }
+   
+    .btn-primary{
+        width: 130px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 25px;
+    }
+    .img-info-heading h5{
+        /* width: 143px;
+        height: 24px; */
+    }
+    .image-info1{
+        /* width: 255px;
+        height: 249px; */
+    }
+    
+    /* Simple perfect */
+    .simple-perfect-place{
+        /* border: 1px solid green; */
+        display: flex;
+        flex-direction: column;
+        margin: 0px 25px;
+        
+    }
+    .simple-perfect-place-img{
+        width: 335px;
+        height: 200px;
+    }
+
+    /* Newsletter */
+    .newsletter{
+        display: flex;
+        flex-direction:column;
+        /* border: 1px solid blue; */
+        margin: 0px 0px;
+        gap: 0px;
+        
+    }
+    .subscribe-field{
+        width: 335px;
+        height: 353px;
+    }
+    .newsletter-title{
+        font-size: 20px;
+    }
+    .newsletter-text{
+        font-size: 14px;
+    }
+
+
+    .subscribe-input{
+        /* width: 5px;
+        height: 5px; */
+    }
+    .subscribe-input input{
+        width: 288px;
+        height: 52px;
+    }
+    
+    .newsletter-img{
+        width: 335px;
+        height: 300px; 
+    }
+    .save-up-to-badge{
+        position: absolute;
+        width: 214.02px;
+        height: 79.27px;
+        left: 166px;
+        top: 9172px;
+    }
+    .save-up-to-badge h2{
+        font-size: 15.85px;
+    }
+    .save-up-to-badge p{
+        font-size: 15.85px;
+        
+    }
+
+    /* footer */
+    .footer{
+        /* border: 1px solid red; */
+        margin-top: 10px;
+        
+    }
+    .footer-icon{
+        margin-left: 80px;
+        padding-top: 30px;
+    }
+    .footer-img{
+        left: 20%;
+        width: 28.72px;
+        height: 33.52px;
+        
+    }
+    .footer h3{
+        font-size: 21.54px;
+        font-weight: 800;
+        text-align: left;
+        
+    }
+    .footer p{
+        font-size: 14px;
+        font-weight: 400;
+    }
 }
 
 /* pc or large device  */
 
 @media screen and (min-width:992px) {
+    /* *{
+        display: none;
+    } */
+    .menu-button{
+        display: none;
+    }
+    .p-small{
+        display: none;
+    }
     
 }
