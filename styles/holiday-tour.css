@@ -743,16 +743,16 @@ div > img{
     }
     
     .imagination-img-text1{
-        top: 122%;
-        left: 10%;
+        top: 130%;
+        left: 11%;
         width: 300px;
     }
     .imagination-img-text2{
-        top: 177%;
+        top: 190%;
     }
     .imagination-img-text3{
-        top: 230%;
-        left: 5%;
+        top: 252%;
+        left: 8%;
     }
     
     /* Popular tours */
@@ -857,8 +857,8 @@ div > img{
         position: absolute;
         width: 300px;
         height: 297px;
-        left: 65px;
-        top: 6470px;
+        left: 50px;
+        top: 6520px;
         
         
     }
@@ -872,8 +872,8 @@ div > img{
         position: absolute;
         width: 300px;
         height: 297px;
-        left: 65px;
-        top: 7025px;
+        left: 50px;
+        top: 7075px;
         
         
     }
@@ -887,8 +887,8 @@ div > img{
         position: absolute;
         width: 300px;
         height: 297px;
-        left: 65px;
-        top: 7570px;
+        left: 50px;
+        top: 7630px;
         
         
     }
@@ -988,14 +988,19 @@ div > img{
         position: absolute;
         width: 214.02px;
         height: 79.27px;
-        left: 166px;
-        top: 9172px;
+        left: 146px;
+        top: 9365px;
+    }
+    .save-up-to-badge p, h2{
+        align-items: center;
     }
     .save-up-to-badge h2{
         font-size: 15.85px;
+        left: 55px;
     }
     .save-up-to-badge p{
         font-size: 15.85px;
+        left: 43px ;
         
     }
 
